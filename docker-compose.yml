@@ -1,0 +1,17 @@
+services:
+  firefox:
+    build: .
+    image: shipanjodder/firefox:latest
+    container_name: firefox
+    environment:
+      - DISPLAY_WIDTH=1920
+      - DISPLAY_HEIGHT=1080
+      - SECURE_CONNECTION=1
+      - TZ=Asia/Dhaka
+    ports:
+      - "5000:5800"
+    volumes:
+      - ./firefox-profile:/config:rw
+      - ./downloads:/downloads:rw
+    restart: unless-stopped
+    shm_size: 2g
