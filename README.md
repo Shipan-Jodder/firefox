@@ -1,7 +1,7 @@
-# firefox
-Docker container for Firefox⁠
+![icon](https://raw.githubusercontent.com/Shipan-Jodder/firefox/refs/heads/main/firefox-icon.png) ![text](https://raw.githubusercontent.com/Shipan-Jodder/firefox/740e6955f3d8640830526f63031d343394a42a38/firefox-text.svg)
+# Docker container for Firefox⁠
 
-## Quick Start:
+### Quick Start:
 
 
 ```bash
@@ -13,7 +13,7 @@ docker run -d \
 ```
 <hr>
 
-## With Docker Compose:
+### With Docker Compose:
 create a file nammed `docker-compose.yml`
 
 ``` js title="docker-compose.yml"
