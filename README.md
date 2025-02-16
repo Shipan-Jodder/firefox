@@ -41,3 +41,6 @@ run, `docker compose up --build -d`
 <br>
 
 Browse locally: [http://localhost:5000/](http://localhost:5000/)
+
+Docker Repository: [Docker hub](https://hub.docker.com/r/shipanjodder/firefox/)
+
